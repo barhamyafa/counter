@@ -1,0 +1,25 @@
+/*  General Style of Counter Component and
+    can be override
+*/
+.counter-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-value {
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #a74648;
+    font-weight: 900;
+    background-color: #f8e8e9;
+    border: 1px solid #c8a7a6;
+    border-right: 0;
+    border-left: 0;
+    padding: 10px;
+
+}
+.counter-wrapper  .btn {
+    width: 40px;
+    height: 40px;
+}
