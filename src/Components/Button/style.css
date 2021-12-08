@@ -3,9 +3,11 @@
     Can overide this stylefor any specific button
 */
 .btn {
+    width: 40px;
+    height: 40px;
     font-weight: 900;
     color: #a74648;
-    padding: 6px;
+    padding: 10px;
     background-color: #ffffff;
     border: 1px solid #c8a7a6;
 }
