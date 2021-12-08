@@ -6,6 +6,9 @@
 
 import React, { useState } from "react";
 import Button from '../Button/index';
+import { ReactComponent as MinusIcon } from '../../assests/icons/minus.svg'
+import { ReactComponent as PlusIcon } from '../../assests/icons/plus.svg'
+
 import './style.css';
 
 const Counter = ({ initialCount, maxAllowedCount }) => {
@@ -20,14 +23,14 @@ const Counter = ({ initialCount, maxAllowedCount }) => {
                     handleClick={() => setCount(count - 1)}
                     isDisabled={count === initialCount}
                 >
-                    -
+                    <MinusIcon/>
                 </Button>
                 <span className="counter-value">{count}</span>
                 <Button
                     handleClick={() => setCount(count + 1)}
                     isDisabled={count === maxAllowedCount}
                 >
-                    +
+                    <PlusIcon/>
                 </Button>
             </div>
         </div>

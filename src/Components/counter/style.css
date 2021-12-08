@@ -23,3 +23,17 @@
     width: 40px;
     height: 40px;
 }
+
+.counter-wrapper  .btn svg {
+    width: 18px;
+    height: 18px;
+    fill: #a74648;
+}
+
+.counter-wrapper  .btn:hover svg {
+    fill: #ffffff;
+}
+
+.counter-wrapper  .btn:disabled svg {
+    fill: #c0c0c0;
+}
