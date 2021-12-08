@@ -1,0 +1,24 @@
+/*
+    General Style For all Buttons in the site
+    Can overide this stylefor any specific button
+*/
+.btn {
+    font-weight: 900;
+    color: #a74648;
+    padding: 6px;
+    background-color: #ffffff;
+    border: 1px solid #c8a7a6;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #a74648;
+}
+
+.btn:disabled,
+.btn[disabled] {
+    color: #c0c0c0;
+    border-color: #c0c0c0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
